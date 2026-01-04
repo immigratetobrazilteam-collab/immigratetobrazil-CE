@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica;
     background: #F0FFFF;
     color: #000080;
 }
 h1, h2 {
-    font-family: Oswald, serif;
+    font-family: Oswald;
     color: #00BFFF;
 }
 a {
