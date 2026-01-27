@@ -1,0 +1,113 @@
+{
+    "persona": {
+        "label": "Dune Beach Wanderer",
+        "tone": "Sunny, adventurous, relaxed",
+        "visual_intensity": "medium",
+        "risk_tolerance": "expressive"
+    },
+    "tokens": {
+        "colors": {
+            "primary": "#ecc94b",
+            "secondary": "#d69e2e",
+            "accent": "#faf089",
+            "bg": "#fffff0",
+            "text": "#975a16",
+            "hover": "#975a16",
+            "active": "#744210",
+            "focus": "#ecc94b",
+            "success": "#38a169",
+            "error": "#f56565",
+            "warning": "#dd6b20",
+            "info": "#4299e1",
+            "neutral": "#fefcbf",
+            "link": "#b7791f",
+            "border": "#f6e05a",
+            "surface": "#fefcbf",
+            "gradient_bg": "linear-gradient(to top right, #fffff0, #fefcbf)"
+        },
+        "typography": {
+            "primary_font": "'Raleway', system-ui, sans-serif",
+            "base_size": "17px",
+            "line_height": "1.6",
+            "heading_sizes": [
+                "2.8rem",
+                "2.4rem",
+                "2.0rem",
+                "1.6rem",
+                "1.4rem",
+                "1.2rem"
+            ]
+        },
+        "spacing": {
+            "xs": "4px",
+            "s": "8px",
+            "m": "16px",
+            "l": "32px",
+            "xl": "48px",
+            "xxl": "72px"
+        },
+        "borders": {
+            "radius": "10px"
+        },
+        "shadows": {
+            "low": "0 4px 8px rgba(214,158,46,0.1)",
+            "medium": "0 10px 20px rgba(214,158,46,0.15)"
+        },
+        "motion": {
+            "timing": "0.5s cubic-bezier(0.37, 0, 0.63, 1)"
+        },
+        "breakpoints": {
+            "tablet": "780px",
+            "desktop": "1050px"
+        },
+        "animations": {
+            "duration_base": 0.5,
+            "ease_default": "easeInOutSine",
+            "intensity_mod": 1.0,
+            "risk_ease": "power3.out",
+            "mobile_mod": 0.8
+        }
+    },
+    "animation_customizations": {
+        "hero": {
+            "from": {
+                "opacity": 0,
+                "y": 50
+            },
+            "to": {
+                "opacity": 1,
+                "y": 0
+            }
+        },
+        "cta": {
+            "hover": {
+                "scale": 1.05
+            },
+            "leave": {
+                "scale": 1
+            }
+        },
+        "form": {
+            "stagger": 0.1,
+            "from": {
+                "opacity": 0
+            }
+        },
+        "list": {
+            "stagger": 0.2,
+            "from": {
+                "opacity": 0,
+                "x": -50
+            }
+        },
+        "content": {
+            "from": {
+                "opacity": 0
+            },
+            "to": {
+                "opacity": 1
+            }
+        },
+        "mobile_mod": 0.8
+    }
+}
